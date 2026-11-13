@@ -15,12 +15,12 @@
 		$window_width = $(window).outerWidth(),
 		$pageUrl = window.location.href.substr(window.location.href.lastIndexOf("/") + 1),
 		$header = $('.header'),
-		$overlay = $('.ShoppingYar-global-overlay'),
+		$overlay = $('.online-shop-global-overlay'),
 		$headerPosition = ( $header.elExists() ) ? $header.offset().top : '',
 		$mainHeaderHeight = ( $header.elExists() ) ? $header[0].getBoundingClientRect().height : 0,
 		$headerTotalHeight = $headerPosition + $mainHeaderHeight,
-		$elementCarousel = $('.ShoppingYar-element-carousel'),
-		$instafeed = $('.ShoppingYar-insta-feed');
+		$elementCarousel = $('.online-shop-element-carousel'),
+		$instafeed = $('.online-shop-insta-feed');
 
 
 
@@ -774,7 +774,7 @@
 	***********************/
 
 	$(window).on('load', function(){
-		$('.ShoppingYar-preloader').removeClass("active");
+		$('.online-shop-preloader').removeClass("active");
 	});
 
 
